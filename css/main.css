@@ -84,8 +84,7 @@ footer {
   overflow: hidden;
 }
 
-a.skip {
-  text-decoration: none;
+.setting {
   color: transparent;
 }
 
