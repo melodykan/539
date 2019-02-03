@@ -82,12 +82,17 @@ footer {
   width: 1px;
   text-align: left;
   overflow: hidden;
+}
+
+a.skip {
+  text-decoration: none;
   color: transparent;
 }
 
 a.skip:active, 
 a.skip:focus, 
 a.skip:hover {
+  text-decoration: none;
   color: black;
   left: 0; 
   top: 0;
