@@ -74,21 +74,24 @@ footer {
   padding: 80px 0;
 }
 
-#skip a {
+.skip {
   position: absolute;
-  margin-left: -3000px;
-  width: 1;
-  height: 1;
+  top: -1000px;
+  left: -1000px;
+  height: 1px;
+  width: 1px;
+  text-align: left;
   overflow: hidden;
-  text-decoration: none;
-  font-size: 25px;
 }
 
-#skip a:focus, #skip a:active {
-  margin-left: 0px;
-  width: auto;
-  height: auto;
-  background-color: azure;
+a.skip:active, 
+a.skip:focus, 
+a.skip:hover {
+  left: 0; 
+  top: 0;
+  width: auto; 
+  height: auto; 
+  overflow: visible; 
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
