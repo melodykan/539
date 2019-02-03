@@ -82,7 +82,7 @@ footer {
   width: 1px;
   text-align: left;
   overflow: hidden;
-  color: none;
+  color: transparent;
 }
 
 a.skip:active, 
